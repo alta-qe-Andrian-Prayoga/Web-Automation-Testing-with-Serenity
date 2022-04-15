@@ -11,7 +11,7 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
 
 public class TheMessage {
     public static Question<Collection<String>> displayed(){
-        WaitUntil.the(CheckpoinPageObject.ERROR_MESSAGE, isVisible()).forNoMoreThan(25).seconds();
+        WaitUntil.the(CheckpoinPageObject.ERROR_MESSAGE, isVisible()).forNoMoreThan(100).seconds();
 
         return Text.ofEach(CheckpoinPageObject.ERROR_MESSAGE).describedAs("the mesaage displayed");
     }

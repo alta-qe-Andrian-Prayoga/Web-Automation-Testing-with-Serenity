@@ -54,7 +54,7 @@ public class ClickOn {
             default:
                 throw new Exception("There is no button type: " + buttonType);
         }
-        WaitUntil.the(button, isVisible()).forNoMoreThan(25).seconds();
+        WaitUntil.the(button, isVisible()).forNoMoreThan(100).seconds();
 
         return Task.where("{0} click " + buttonType +  "button", Click.on(button));
     }

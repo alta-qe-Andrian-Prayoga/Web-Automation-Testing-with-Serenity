@@ -10,7 +10,7 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
 
 public class TheMenu {
     public static Question<Collection<String>> displayed(){
-        WaitUntil.the(CheckpoinPageObject.MENU_LIST, isVisible()).forNoMoreThan(25).seconds();
+        WaitUntil.the(CheckpoinPageObject.MENU_LIST, isVisible()).forNoMoreThan(100).seconds();
 
         return Text.ofEach(CheckpoinPageObject.MENU_LIST).describedAs("the massages displayed");
     }

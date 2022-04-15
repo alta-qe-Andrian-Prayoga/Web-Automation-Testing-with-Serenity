@@ -32,7 +32,7 @@ public class HRMPIMPageObjects extends PageObject {
     public static Target SAVE_BUTTON = Target.the("save button")
             .locatedBy("#btnSave");
     public static Target PERSONAL_DETAILS = Target.the("personal details")
-            .locatedBy("//h1[text()='Personal Details']");
+            .locatedBy("//div[@id='pdMainContainer']/div/h1");
     //Add Employee -- End
 
     //Update Employee -- Begin
@@ -48,6 +48,6 @@ public class HRMPIMPageObjects extends PageObject {
     public static Target OK_BUTTON = Target.the("ok button")
             .locatedBy("#dialogDeleteBtn");
     public static Target NO_EMPLOYEE = Target.the("empety employee list")
-            .locatedBy("//*[text()='No Records Found']");
+            .locatedBy("//div[@id='tableWrapper']/table[@id='resultTable']/tbody/tr/td['No Records Found']");
     //Delete employee -- End
 }
