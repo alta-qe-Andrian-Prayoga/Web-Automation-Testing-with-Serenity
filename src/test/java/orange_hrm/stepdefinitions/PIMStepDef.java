@@ -44,7 +44,11 @@ public class PIMStepDef {
     }
     @Then("{actor} can see my Personal Details")
     public void personalDetails(Actor actor) throws Exception{
-        actor.attemptsTo(VerifyDisplayed.element("Personal Details"));
+        actor.attemptsTo(
+                VerifyDisplayed.element("Personal Details"),
+                Ensure.that(HRMPIMPageObjects.PERSONAL_FIRST_NAME_FIELD).value().isEqualTo("Andrian"),
+                Ensure.that(HRMPIMPageObjects.PERSONAL_LAST_NAME_FIELD).value().isEqualTo("Prayoga")
+        );
     }
     //Add Employee -- End
 

@@ -33,6 +33,10 @@ public class HRMPIMPageObjects extends PageObject {
             .locatedBy("#btnSave");
     public static Target PERSONAL_DETAILS = Target.the("personal details")
             .locatedBy("//div[@id='pdMainContainer']/div/h1");
+    public static Target PERSONAL_FIRST_NAME_FIELD = Target.the("personal first name field")
+            .locatedBy("#personal_txtEmpFirstName");
+    public static Target PERSONAL_LAST_NAME_FIELD = Target.the("personal last name field")
+            .locatedBy("#personal_txtEmpLastName");
     //Add Employee -- End
 
     //Update Employee -- Begin

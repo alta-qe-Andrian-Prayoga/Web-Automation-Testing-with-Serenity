@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Orange HRM - CRUD Employed Data
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 77.567 s - in Orange HRM - CRUD Employed Data
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.561 s - in Orange HRM - CRUD Employed Data
