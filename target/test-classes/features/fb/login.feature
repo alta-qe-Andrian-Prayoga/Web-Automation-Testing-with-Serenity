@@ -4,7 +4,7 @@ Feature: FB Login
   but I can't see my news feed due to FB restriction
 
   @fblogin
-  Scenario: User has failde to login FB
+  Scenario: User has failed to login FB
     Given I open facebook login page
     When I input email and password
     And I click button login
