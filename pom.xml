@@ -14,7 +14,8 @@
         <serenity.maven.version>3.2.1</serenity.maven.version>
         <serenity.cucumber.version>3.2.1</serenity.cucumber.version>
         <logback.version>1.2.3</logback.version>
-        <selenium.java.version>4.1.2</selenium.java.version>
+        <selenium.java>4.1.2</selenium.java>
+        <serenity.jbehave>1.46.0</serenity.jbehave>
         <encoding>UTF-8</encoding>
         <tags></tags>
         <parallel.tests>4</parallel.tests>
@@ -60,9 +61,37 @@
             <scope>test</scope>
         </dependency>
         <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.17.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.17.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.17.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest</artifactId>
+            <version>2.2</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.1.2</version>
+            <version>${selenium.java}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.serenity-bdd</groupId>
+            <artifactId>serenity-jbehave</artifactId>
+            <version>${serenity.jbehave}</version>
         </dependency>
 
     </dependencies>

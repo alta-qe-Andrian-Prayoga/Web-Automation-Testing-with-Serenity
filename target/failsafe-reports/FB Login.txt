@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: FB Login
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 15.181 s <<< FAILURE! - in FB Login
-FB Login.User has failed to login FB  Time elapsed: 15.181 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.092 s <<< FAILURE! - in FB Login
+FB Login.User has failed to login FB  Time elapsed: 20.092 s  <<< ERROR!
 org.openqa.selenium.StaleElementReferenceException: 
 stale element reference: element is not attached to the page document
   (Session info: chrome=100.0.4896.127)
@@ -10,8 +10,8 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-AF23583', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5b9464c3ecf2bc6d4c5fb6965592edde, getElementText {id=6ebd5975-412d-4e33-a68b-fd4b6421dafd}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Andre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50469}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50469/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (5b9464c3ecf2bc6d4c5fb6965592edde)] -> css selector: .rq0escxv.l9j0dhe7.du4w35lb]
-Session ID: 5b9464c3ecf2bc6d4c5fb6965592edde
+Command: [a14fa2e6d352665210528f26d6d9453c, getElementText {id=3a3d2786-375c-40de-ab74-2eacd0aa73bd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.127, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\Andre\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57665}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57665/devtoo..., se:cdpVersion: 100.0.4896.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a14fa2e6d352665210528f26d6d9453c)] -> css selector: .rq0escxv.l9j0dhe7.du4w35lb]
+Session ID: a14fa2e6d352665210528f26d6d9453c
 
